@@ -1,0 +1,107 @@
+
+body{
+    font-family: 'Spartan', sans-serif;
+    background-color: hsl(222, 26%, 31%);
+    color: white;
+}
+
+.continner{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 150px;
+}
+
+.contains{
+    text-align: center;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.button_style input[type="button"]{
+    padding: 5px 15px;
+}
+
+.parag{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.text_box input{
+    width: 100%;
+    text-align: right;
+    height: 60px;
+    outline: none;
+    border: none;
+    background-color:  hsl(224, 36%, 15%) ;
+    border-radius: 5px;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color:  hsl(223, 31%, 20%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button_style{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.button_style:nth-child(5){
+    margin-bottom: 0;
+}
+
+.btn{
+    font-family: 'Spartan', sans-serif;
+    width: 68px;
+    height: 40px;
+    padding-bottom: 0 !important;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color:  hsl(221, 14%, 31%);
+    box-shadow: 0px 2px 1px hsl(28, 16%, 65%);
+}
+
+.del{
+    background-color: hsl(225, 21%, 49%);  
+    color: white;
+    text-align: center;
+    box-shadow: 0px 2px 1px  hsl(224, 28%, 35%);
+}
+
+.btnsuper{
+    width: 150px;
+    color: white;
+}
+
+.btnsuper:nth-child(2){
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0px 2px 1px  hsl(6, 70%, 34%)
+}
+
+.btnsuper:nth-child(1){
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 2px 1px  hsl(224, 28%, 35%);
+}
+
+
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
